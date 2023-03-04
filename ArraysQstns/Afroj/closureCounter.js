@@ -4,7 +4,5 @@ function countBy(initialCount, incrementBy) {
     return function () {
         count = count + incrementBy;
         return count;
-
     }
-
 }
