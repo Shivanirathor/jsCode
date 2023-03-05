@@ -1,3 +1,5 @@
+// assignment question
+
 function countBy(initialCount, incrementBy) {
     let count = initialCount;
 
@@ -6,3 +8,4 @@ function countBy(initialCount, incrementBy) {
         return count;
     }
 }
+
