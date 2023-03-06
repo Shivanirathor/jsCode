@@ -11,7 +11,5 @@ function countBy(initialCount, incrementBy) {
 }
 
 const result = countBy(2, 2);
-// console.log(countBy((2,2)));
-// countBy(2,-2);
 
 console.log(result());
