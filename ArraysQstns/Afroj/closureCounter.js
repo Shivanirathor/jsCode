@@ -5,11 +5,13 @@ function countBy(initialCount, incrementBy) {
 
     return function () {
         count = count + incrementBy;
-        console.log(count);
+        // console.log(count);
         return count;
     }
 }
 
-countBy((2,2));
+const result = countBy(2, 2);
+// console.log(countBy((2,2)));
 // countBy(2,-2);
 
+console.log(result());
