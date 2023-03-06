@@ -19,3 +19,21 @@ function calculate(operation) {
 
 calculate("ADD")(5, 4);
 calculate("SUBTRACT")(5, 4);
+
+
+function calculate(operation) {
+    if (operation === "ADD") {
+        return ((a, b) => {
+            const result = a + b;
+            console.log(`${a} + ${b} = ${result}`);
+        });
+    } else if (operation === "SUBTRACT") {
+        return ((a, b) => {
+            const result = a - b;
+            console.log(`${a} - ${b} = ${result}`);
+        });
+    }
+}
+
+calculate("ADD")(6, 4);
+calculate("SUBTRACT")(6, 4);

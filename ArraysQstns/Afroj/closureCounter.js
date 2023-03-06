@@ -10,6 +10,6 @@ function countBy(initialCount, incrementBy) {
     }
 }
 
-countBy(2,2);
-countBy(2,-2);
+countBy((2,2));
+// countBy(2,-2);
 
