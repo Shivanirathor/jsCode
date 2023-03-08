@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Functions</title>
+</head>
+
+<body>
+    <p style="text-align: center; font-size: larger;">String Functions</p>
+</body>
+<script>
+    var str = "This is a string";
+    console.log(str);
+    var position = str.indexOf('is');
+    console.log(position);
+    position = str.lastIndexOf('is');
+    console.log(position);
+
+    var substr = str.slice(0, 7);//can take negative values
+    console.log(substr);
+    var substr = str.substring(0, 7);//this cant
+    console.log(substr);
+    var substr = str.substr(0, 7);//extract length 7 is how many character you need in the new string
+    console.log(substr);
+
+    var replaced = str.replace('string', 'replaced');
+    console.log(replaced);
+
+    console.log(str.toUpperCase());
+
+    var newstring = str.concat(' newly added');
+    console.log(newstring);
+
+    var strWithWhitespaces = "   this contains     whitespaces    ";
+    console.log(strWithWhitespaces);
+    console.log(strWithWhitespaces.trim());
+
+    var char2 = str.charAt(2);
+    console.log(char2);
+
+    var char2 = str.charCodeAt(2);
+    console.log(char2);
+
+    console.log(str[0]);
+
+</script>
+
+</html>
