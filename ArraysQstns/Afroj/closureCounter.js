@@ -13,3 +13,7 @@ function countBy(initialCount, incrementBy) {
 const result = countBy(2, 2);
 
 console.log(result());
+
+/*
+Concept used: closure and currying
+*/

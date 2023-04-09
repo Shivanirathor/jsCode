@@ -20,7 +20,7 @@ function calculate(operation) {
 calculate("ADD")(5, 4);
 calculate("SUBTRACT")(5, 4);
 
-
+// approach 2
 function calculate(operation) {
     if (operation === "ADD") {
         return ((a, b) => {
