@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope - conditonals - Arrays and objects</title>
+</head>
+
+<body>
+    <p style="text-align: center; font-size: larger;">Scope - conditonals - Arrays and objects</p>
+
+</body>
+<script>
+    var string1 = "This is string1";
+    var string1 = "This is string2";
+    console.log(string1);
+
+    let a = "This can be changed";
+    console.log(a);
+    a = "changed now";
+    console.log(a);
+
+    const b = "This can't be changed";
+    console.log(b);
+    // b="will give error";
+    console.log(b);
+
+    let age = 19;
+    if (age > 18) {
+        console.log("You are an adult");
+    } else {
+        console.log("You are a teen");
+    }
+
+    //Arrays and objects
+
+    //Primitive 
+    let myVar1 = 43;
+    let myVar2 = "Afroj"
+    let myVar3 = true;
+    let myVar4 = null;
+    let myVar5 = undefined;
+
+    //object to create key value pairs
+    let emp = {
+        name: "ahmed",
+        salary: '1L',
+        channel1: "aFrontend",
+        "channel 2": "abackend"
+    }
+    console.log(emp);
+
+    // let arr = [1, 2, 3, 'ahmed'];
+    let arr = new Array(3, 2, 1, 'ahmed');
+    arr.sort();
+    console.log(arr);
+    console.log(arr[3]);
+
+    //emp.name will fetch name
+    //channel2 and chanel 2 
+    //emp.channel 2 will give error hence we will have to use
+    //another way 
+    //emp['channel 2']
+
+    let names = new Array(23);
+    //will create an array with 23 empty elements 
+    console.log(names);
+
+</script>
+
+</html>
