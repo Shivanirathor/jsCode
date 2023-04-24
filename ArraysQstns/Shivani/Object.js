@@ -23,3 +23,14 @@ var users = [{
 
 console.log(users)
 console.table(users[1]);
+
+
+
+
+// =========for printing values==========================
+// var txt = "";
+// var x;
+// for(x in users){
+//     txt += users[x] + " ";
+// }
+// console.log(txt);

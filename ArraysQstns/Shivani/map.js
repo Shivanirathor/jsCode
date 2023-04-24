@@ -6,7 +6,7 @@ const arr = [7, 10, 4, 3, 20, 15];
 
 //anonymous function
 const mapNumber = arr.map((num) => {
-  //   return num % 2 === 0 ;
+    // return num % 2 === 0 ;
   return num%2;
 });
 console.log(mapNumber);
