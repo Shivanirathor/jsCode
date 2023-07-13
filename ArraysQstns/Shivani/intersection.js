@@ -1,7 +1,7 @@
 const a =[1,2,3,4];
 const b =[3,5,4,6];
 
-//  let intersection = arr1.filter(x => arr2.includes(x));
+//  let intersection = a.filter(x => b.includes(x));
 
 //  console.log(intersection);
 
