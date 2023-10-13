@@ -94,6 +94,39 @@
 // getAge();
 
 // qstn-15
-const sum = eval(10*3+3);
-console.log(sum);
-console.warn('first')
+// const sum = eval(10*3+3);
+// console.log(sum);
+// console.warn('first')
+
+// qstn-16
+// const obj={
+//    1: '1',
+//    2: '2',
+//    3: '3',
+// }
+// console.log(obj.hasOwnProperty('5'))
+// console.log(obj.hasOwnProperty(8))
+
+// qstn-17
+// for(let i=0; i<6; i++){
+// if(i === 3) continue;
+// console.log(i);
+// }
+
+// qstn-18 ask
+{/* <div onclick="console.log('outer div clicked')">
+    <div onclick="console.log('inner div clicked')">
+        <button onclick="console.log('button clicked')">click</button>
+    </div>
+</div> */}
+
+// qstn-19
+// console.log(typeof 1)
+// console.log(typeof typeof 1)
+
+// qstn-20
+console.log(!!null)
+console.log(!!"")
+console.log(!!2)
+console.log(!true - true)
+console.log(true + + "2")
